@@ -14,6 +14,7 @@ export function DiagramNode({ title, subtitle, isActive, onActivate, children }:
     <div
       role="button"
       tabIndex={0}
+      data-cursor="hover"
       onClick={onActivate}
       onMouseEnter={onActivate}
       onFocus={onActivate}

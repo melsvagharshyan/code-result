@@ -12,6 +12,7 @@ export function HubNode({ isActive, onActivate }: HubNodeProps) {
     <div
       role="button"
       tabIndex={0}
+      data-cursor="hover"
       onClick={onActivate}
       onMouseEnter={onActivate}
       onFocus={onActivate}
