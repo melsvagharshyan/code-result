@@ -51,6 +51,15 @@
   }
 }
 
+/* Matches the breakpoint where CustomCursor is rendered (md). */
+@media (hover: hover) and (pointer: fine) and (min-width: 48rem) {
+  *,
+  *::before,
+  *::after {
+    cursor: none !important;
+  }
+}
+
 @utility glass-paper {
   background: rgba(250, 248, 245, 0.85);
   backdrop-filter: blur(12px);

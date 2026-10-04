@@ -30,7 +30,7 @@ export function useCustomCursor() {
     }
   }, [rawX, rawY])
 
-  return { x, y, isHovering }
+  return { x, y, dotX: rawX, dotY: rawY, isHovering }
 }
 
 export function useActiveSection(ids: SectionId[]) {
