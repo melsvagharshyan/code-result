@@ -1,6 +1,5 @@
 import { MotionConfig } from 'motion/react'
 import { BackgroundDecor } from './components/BackgroundDecor'
-import { CustomCursor } from './components/CustomCursor'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { HeroSection } from './components/HeroSection'
@@ -14,7 +13,6 @@ export default function LandingPage() {
     <MotionConfig reducedMotion="user">
       <div className="relative">
         <BackgroundDecor />
-        <CustomCursor />
         <ScrollProgress />
         <Header />
         <main className="relative z-10">
